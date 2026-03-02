@@ -1,0 +1,8 @@
+{
+  "userName": {
+    "sender1": {
+      "sentMessages": [{ "message": "", "time": "" }],
+      "receivedMessages": [{ "message": "", "time": "" }]
+    }
+  }
+}
