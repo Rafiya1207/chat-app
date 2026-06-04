@@ -11,7 +11,7 @@ export const addChat = async (c) => {
   const users = c.get("users");
   const fd = await c.req.formData();
   const message = fd.get("message");
-
+  const chatHistory = c.get("chatHistory");
   chatHistory.push({ message });
   return c.redirect("/", 303);
 };
